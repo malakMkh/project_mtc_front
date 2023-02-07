@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-
+import Sidebar from './composant/Sidebar';
+//import Profile from './composant/Profile';
+//import Password from './composant/Password';
+//import Interest from './composant/Interests';
+//import SettingPage from './composant/SettingPage';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    /*--   1 :CSS du Sidebare---*/
+     <Sidebar/>
+
+ /*--- 2: setting Page---*/
+ /*<Profile/>*/
+ /*<Password/>*/
+/*<Interest/>*/
+//<SettingPage/>
+
+
   );
 }
+
 
 export default App;
