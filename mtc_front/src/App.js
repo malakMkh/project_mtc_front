@@ -1,22 +1,20 @@
 //import logo from './logo.svg';
 import './App.css';
-import Sidebar from './composant/Sidebar';
+import AboutUs from './composant/Aboutus/AboutUs';
+// import Sidebar from './composant/Sidebar/Sidebar';
 //import Profile from './composant/Profile';
 //import Password from './composant/Password';
 //import Interest from './composant/Interests';
-//import SettingPage from './composant/SettingPage';
+// import SettingPage from './composant/Settingpage/SettingPage';
 function App() {
   return (
     /*--   1 :CSS du Sidebare---*/
-     <Sidebar/>
-
+    // <Sidebar/>
+//<AboutUs/>
  /*--- 2: setting Page---*/
- /*<Profile/>*/
- /*<Password/>*/
-/*<Interest/>*/
-//<SettingPage/>
-
-
+// {/* <SettingPage/> */}
+ /*--- 3: About us page---*/
+<AboutUs/>
   );
 }
 

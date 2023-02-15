@@ -1,10 +1,10 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
 
 :root{
@@ -135,14 +135,14 @@ body{
     margin-top: 40px;
 }
 
-.sidebar_c li.search-box{
+.sidebar_c li.search_box{
     border-radius: 6px;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
     transition: var(--tran-05);
 }
 /* === search box === */
-.sidebar_c li.search-box input{
+.sidebar_c li.search_box input{
     height: 100%;
     width: 90%;
     outline: none;
@@ -177,13 +177,13 @@ body{
 }
 
 
-.sidebar_c .menu-bar{
+.sidebar_c .menu_bar{
     height: calc(100% - 55px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow-y: scroll;
 }
-.menu-bar::-webkit-scrollbar{
+.menu_bar::-webkit-scrollbar{
     display: none;
 }
